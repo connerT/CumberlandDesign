@@ -1,4 +1,32 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "Cumberland Design"
+theme = "hugrid"
+
+contentdir = "content"
+datadir = "data"
+layoutdir = "layouts"
+publishdir = "public"
+
+# Enter your tracking code to enable Google Analytics
+# googleAnalytics = "UA-XXXXXXXX-Y"
+
+[params]
+    # Meta
+    title = "Cumberland Design - fine woodwork for the home"
+    subtitle = "Cumberland Design specializes in quality, hardwood, items for the home and office. Our products are built to last a lifetime and are meant to be an answer to cheap, particle board, furniture we find in many homes. All items are handmade by me with great care and skill I've built through decades of experience as a woodworker. Proudly display these items and tell the story of unique, handmade construction from Nashville, Tennessee!"
+    author = "Conner Tolley"
+    description = "Hugrid - grid theme for Hugo with an expanding image preview."
+    keywords = "Cumberland Design, Woodworking, woodwork, Nashville, etsy shop, fine handmade products, carpentry"
+
+    # Body background color
+    bodybgcolor = "#002244"
+
+    # Preview container button text
+    buttontext = "BUY NOW ON ETSY"
+
+    # Footer text
+    footertext = "Made by [Codrops](http://tympanus.net/codrops/2013/03/19/thumbnail-grid-with-expanding-preview/), [Hugo](http://gohugo.io) and [me](https://github.com/aerohub)"
+
+    # add extra-css
+    # custom_css = ['css/extra1.css', 'css/extra2.css']
